@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="грЭтап1" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр этап1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр этап1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грЭтап1РасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация27" id="133">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 20&gt;&lt;b&gt;&lt;color #696969&gt;Пожалуйста, уделите немного времени для того, чтобы ознакомиться с важной информацией.&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<ContextMenu name="Декорация27КонтекстноеМеню" id="134"/>
+					<ExtendedTooltip name="Декорация27РасширеннаяПодсказка" id="135"/>
+				</LabelDecoration>
+				<UsualGroup name="грЭтап1Декорации" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап1 декорации</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап1 декорации</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="грЭтап1ДекорацииРасширеннаяПодсказка" id="5"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация1" id="1">
+							<Picture>
+								<xr:Ref>CommonPicture.AP_УчебныйКомпьютер</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="3"/>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация2" id="6">
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;font roboto-regular&gt;&lt;fontsize 11&gt;&lt;bgcolorstyle -1&gt;&lt;color #696969&gt;Мы не можем вернуть ваши средства или заморозить ваш аккаунт, если вы вошли в него на фишинговом сайте или потеряли секретную фразу (SEED).&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;font roboto-regular&gt;&lt;fontsize 11&gt;&lt;bgcolorstyle -1&gt;&lt;color #696969&gt;
+&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;bgcolorstyle -1&gt;&lt;color #696969&gt;
+&lt;/&gt;&lt;/&gt;&lt;font roboto-regular&gt;&lt;fontsize 11&gt;&lt;bgcolorstyle -1&gt;&lt;color #696969&gt;Продолжая использовать нашу платформу, вы соглашаетесь с тем, что в случае утраты вами секретной фразы (SEED), платформа Acryl не сможет восстановить доступ к вашему аккаунту или вернуть вам ваши средства. Только вы контролируете свой аккаунт и ответственны за сохранность секретной фразы.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация2КонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="8"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<Button name="Этап2" id="11">
+					<Type>UsualButton</Type>
+					<Representation>Text</Representation>
+					<DefaultButton>true</DefaultButton>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.Этап2</CommandName>
+					<TextColor>style:ButtonTextColor</TextColor>
+					<BackColor>style:ImportantColor</BackColor>
+					<BorderColor>style:ButtonBorderColor</BorderColor>
+					<ExtendedTooltip name="Этап2РасширеннаяПодсказка" id="12"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="грЭтап2" id="13">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр этап2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр этап2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грЭтап2РасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация3" id="15">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 16&gt;&lt;b&gt;Что вам нужно знать о секретной фразе?&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<ContextMenu name="Декорация3КонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="17"/>
+				</LabelDecoration>
+				<LabelDecoration name="Декорация4" id="18">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;При регистрации аккаунта вам предлагается сохранить секретную фразу (Seed) и защитить аккаунт паролем. В обычных централизованных сервисах особое внимание уделяется именно паролю, который, в случае чего, можно изменить или восстановить через почту. У децентрализованной платформы Acryl всё устроено иначе:&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<ContextMenu name="Декорация4КонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="20"/>
+				</LabelDecoration>
+				<UsualGroup name="грЭтап2Общая" id="25">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап2 общая</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="грЭтап2ОбщаяРасширеннаяПодсказка" id="26"/>
+					<ChildItems>
+						<UsualGroup name="грЭтап2Лево" id="21">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр этап2 лево</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр этап2 лево</v8:content>
+								</v8:item>
+							</ToolTip>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ThroughAlign>Use</ThroughAlign>
+							<ExtendedTooltip name="грЭтап2ЛевоРасширеннаяПодсказка" id="22"/>
+							<ChildItems>
+								<UsualGroup name="Группа1" id="83">
+									<Group>AlwaysHorizontal</Group>
+									<ShowTitle>false</ShowTitle>
+									<ThroughAlign>Use</ThroughAlign>
+									<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="84"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация17" id="85">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_Анонимность</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация17КонтекстноеМеню" id="86"/>
+											<ExtendedTooltip name="Декорация17РасширеннаяПодсказка" id="87"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация5" id="27">
+											<VerticalStretch>false</VerticalStretch>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Вы пользуетесь кошельком анонимно, ваш аккаунт не привязывается к электронной почте или к другим идентифицирующим данным.&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация5КонтекстноеМеню" id="28"/>
+											<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="29"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа2" id="88">
+									<ThroughAlign>Use</ThroughAlign>
+									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="89"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация18" id="90">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_РезервнаяКопия</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация18КонтекстноеМеню" id="91"/>
+											<ExtendedTooltip name="Декорация18РасширеннаяПодсказка" id="92"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация6" id="30">
+											<VerticalStretch>false</VerticalStretch>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Забыв пароль, вы легко можете создать новый, воспользовавшись формой восстановления аккаунта через секретную фразу. Потеряв секретную фразу, вы теряете доступ к вашему аккаунту навсегда.&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация6КонтекстноеМеню" id="31"/>
+											<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="32"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГрЭтап2Право" id="23">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр этап2 право</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр этап2 право</v8:content>
+								</v8:item>
+							</ToolTip>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ThroughAlign>Use</ThroughAlign>
+							<ExtendedTooltip name="ГрЭтап2ПравоРасширеннаяПодсказка" id="24"/>
+							<ChildItems>
+								<UsualGroup name="Группа3" id="93">
+									<Group>AlwaysHorizontal</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="94"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация19" id="95">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_Пароль</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация19КонтекстноеМеню" id="96"/>
+											<ExtendedTooltip name="Декорация19РасширеннаяПодсказка" id="97"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация7" id="33">
+											<VerticalStretch>false</VerticalStretch>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Пароль защищает ваш аккаунт в рамках работы с конкретным устройством или браузером. Он необходим для того, чтобы ваша секретная фраза не хранилась в памяти и злоумышленники не могли получить к ней доступ.
+Забыв пароль, вы легко можете&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация7КонтекстноеМеню" id="34"/>
+											<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="35"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа4" id="98">
+									<Group>AlwaysHorizontal</Group>
+									<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="99"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация20" id="100">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_Бумага</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация20КонтекстноеМеню" id="101"/>
+											<ExtendedTooltip name="Декорация20РасширеннаяПодсказка" id="102"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация8" id="36">
+											<VerticalStretch>false</VerticalStretch>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Секретную фразу нельзя изменить. Если вы её случайно кому-то отправили или подозреваете, что ею завладели мошенники, срочно создайте новый кошелёк Acryl и переведите все средства на него, не забыв при этом сохранить новую секретную фразу.&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация8КонтекстноеМеню" id="37"/>
+											<ExtendedTooltip name="Декорация8РасширеннаяПодсказка" id="38"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="грЭтап2Команды" id="43">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап2 команды</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап2 команды</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="грЭтап2КомандыРасширеннаяПодсказка" id="44"/>
+					<ChildItems>
+						<Button name="НазадЭтап1" id="39">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.НазадЭтап1</CommandName>
+							<ExtendedTooltip name="НазадЭтап1РасширеннаяПодсказка" id="40"/>
+						</Button>
+						<Button name="Этап3" id="41">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Этап3</CommandName>
+							<TextColor>style:ButtonTextColor</TextColor>
+							<BackColor>style:ImportantColor</BackColor>
+							<BorderColor>style:ButtonBorderColor</BorderColor>
+							<ExtendedTooltip name="Этап3РасширеннаяПодсказка" id="42"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="грЭтап3" id="45">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр этап3</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр этап3</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грЭтап3РасширеннаяПодсказка" id="46"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация9" id="53">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 18&gt;&lt;b&gt;Как защититься от фишинга&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<ContextMenu name="Декорация9КонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="55"/>
+				</LabelDecoration>
+				<LabelDecoration name="Декорация10" id="56">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Одним из распространённых видов мошенничества является фишинг — мошенники создают фальшивые группы в Facebook, сайты, внешне похожие на настоящие.&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<ContextMenu name="Декорация10КонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="58"/>
+				</LabelDecoration>
+				<UsualGroup name="грЭтап3Общая" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап3 общая</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап3 общая</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="грЭтап3ОбщаяРасширеннаяПодсказка" id="48"/>
+					<ChildItems>
+						<UsualGroup name="грЭтап3Лево" id="49">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр этап3 лево</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр этап3 лево</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="грЭтап3ЛевоРасширеннаяПодсказка" id="50"/>
+							<ChildItems>
+								<UsualGroup name="Группа5" id="103">
+									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="104"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация21" id="109">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_СсылкаURL</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация21КонтекстноеМеню" id="110"/>
+											<ExtendedTooltip name="Декорация21РасширеннаяПодсказка" id="111"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация11" id="59">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Всегда проверяйте URL: &lt;/&gt;&lt;/&gt;&lt;link https://client.acrylplatform.com&gt;&lt;fontsize 12&gt;&lt;color #696969&gt;https://client.acrylplatform.com&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация11КонтекстноеМеню" id="60"/>
+											<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="61"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа6" id="105">
+									<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="106"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация22" id="112">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_ЭлектроннаяПочта</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация22КонтекстноеМеню" id="113"/>
+											<ExtendedTooltip name="Декорация22РасширеннаяПодсказка" id="114"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация12" id="62">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Не открывайте письма или ссылки от неизвестных вам отправителей.&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация12КонтекстноеМеню" id="63"/>
+											<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="64"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа7" id="107">
+									<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="108"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация23" id="115">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_ОС</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация23КонтекстноеМеню" id="116"/>
+											<ExtendedTooltip name="Декорация23РасширеннаяПодсказка" id="117"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация13" id="65">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Пользуйтесь официальным программным обеспечением. Не устанавливайте неизвестные или взломанные программы.&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация13КонтекстноеМеню" id="66"/>
+											<ExtendedTooltip name="Декорация13РасширеннаяПодсказка" id="67"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="грЭтап3Право" id="51">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр этап3 право</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр этап3 право</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="грЭтап3ПравоРасширеннаяПодсказка" id="52"/>
+							<ChildItems>
+								<UsualGroup name="Группа8" id="118">
+									<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="119"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация24" id="124">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_Плагин</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация24КонтекстноеМеню" id="125"/>
+											<ExtendedTooltip name="Декорация24РасширеннаяПодсказка" id="126"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация14" id="68">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Для входа в свой аккаунт не используйте браузеры, в которых установлены расширения и плагины, они могут получить доступ к вашей секретной фразе.&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация14КонтекстноеМеню" id="69"/>
+											<ExtendedTooltip name="Декорация14РасширеннаяПодсказка" id="70"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа9" id="120">
+									<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="121"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация25" id="127">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_Обновление</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация25КонтекстноеМеню" id="128"/>
+											<ExtendedTooltip name="Декорация25РасширеннаяПодсказка" id="129"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация15" id="71">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Регулярно проверяйте наличие обновлений для операционной системы и браузера.
+Пользуйтесь официальным&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация15КонтекстноеМеню" id="72"/>
+											<ExtendedTooltip name="Декорация15РасширеннаяПодсказка" id="73"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа10" id="122">
+									<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="123"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация26" id="130">
+											<Picture>
+												<xr:Ref>CommonPicture.AP_WiFi</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация26КонтекстноеМеню" id="131"/>
+											<ExtendedTooltip name="Декорация26РасширеннаяПодсказка" id="132"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация16" id="74">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;fontsize 12&gt;&lt;color #696969&gt;Не заходите в кошелёк, используя общественный Wi-Fi или с чужого устройства.&lt;/&gt;&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация16КонтекстноеМеню" id="75"/>
+											<ExtendedTooltip name="Декорация16РасширеннаяПодсказка" id="76"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="грЭтап3Команды" id="81">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап3 команды</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр этап3 команды</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="грЭтап3КомандыРасширеннаяПодсказка" id="82"/>
+					<ChildItems>
+						<Button name="НазадЭтап2" id="77">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.НазадЭтап2</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Назад</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="НазадЭтап2РасширеннаяПодсказка" id="78"/>
+						</Button>
+						<Button name="Конец" id="79">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Конец</CommandName>
+							<TextColor>style:ButtonTextColor</TextColor>
+							<BackColor>style:ImportantColor</BackColor>
+							<BorderColor>style:ButtonBorderColor</BorderColor>
+							<ExtendedTooltip name="КонецРасширеннаяПодсказка" id="80"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<Commands>
+		<Command name="Этап2" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Что вам нужно знать о секретной фразе?</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DialogInformation</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Этап2</Action>
+		</Command>
+		<Command name="НазадЭтап1" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НазадЭтап1</Action>
+		</Command>
+		<Command name="Этап3" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Как защититься от фишинга?</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Этап3</Action>
+		</Command>
+		<Command name="НазадЭтап2" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад этап2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НазадЭтап2</Action>
+		</Command>
+		<Command name="Конец" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Я понял</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Готово</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Конец</Action>
+		</Command>
+	</Commands>
+</Form>

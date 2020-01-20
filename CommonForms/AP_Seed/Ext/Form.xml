@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСоздатьКошелек" id="6">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.СоздатьКошелек</CommandName>
+				<ExtendedTooltip name="ФормаСоздатьКошелекРасширеннаяПодсказка" id="7"/>
+			</Button>
+			<Button name="ФормаСгенирироватьНовые" id="4">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СгенирироватьНовые</CommandName>
+				<ExtendedTooltip name="ФормаСгенирироватьНовыеРасширеннаяПодсказка" id="5"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Seed" id="1">
+			<DataPath>Seed</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>40</MaxWidth>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<MaxHeight>3</MaxHeight>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="SeedКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="SeedРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<CheckBoxField name="TestNet" id="32">
+			<DataPath>TestNet</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>TestNet</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать кошелек в тестовой сети</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="TestNetКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="TestNetРасширеннаяПодсказка" id="34"/>
+		</CheckBoxField>
+		<UsualGroup name="грЭтап1" id="8">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр этап1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр этап1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грЭтап1РасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация1" id="10">
+					<Picture>
+						<xr:Ref>CommonPicture.AP_ДлительнаяОперация</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="12"/>
+				</PictureDecoration>
+				<LabelDecoration name="Декорация2" id="13">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 16&gt;&lt;color #696969&gt;Идет создание кошелька... 
+Пожалуйста подождите...&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="15"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="грГотово" id="16">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр готово</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр готово</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грГотовоРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация3" id="18">
+					<Picture>
+						<xr:Ref>CommonPicture.AP_Успешно32</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="Декорация3КонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="20"/>
+				</PictureDecoration>
+				<LabelDecoration name="Декорация4" id="21">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 20&gt;&lt;b&gt;&lt;color #696969&gt;Выполнено успешно&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 20&gt;&lt;b&gt;&lt;color #696969&gt;!&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация4КонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="23"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="грОшибка" id="24">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр ошибка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр ошибка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грОшибкаРасширеннаяПодсказка" id="25"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация5" id="26">
+					<Picture>
+						<xr:Ref>CommonPicture.AP_Ошибка32</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="Декорация5КонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="28"/>
+				</PictureDecoration>
+				<LabelDecoration name="Декорация6" id="29">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 22&gt;&lt;b&gt;&lt;color #696969&gt;Ошибка&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация6КонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="31"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Seed" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Seed</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="TestNet" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Test net</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СгенирироватьНовые" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенирировать новые</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенирировать новые</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СгенирироватьНовые</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="СоздатьКошелек" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать кошелек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать кошелек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьКошелек</Action>
+		</Command>
+	</Commands>
+</Form>

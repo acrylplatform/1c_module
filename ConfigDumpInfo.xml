@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9">
+	<ConfigVersions>
+		<Metadata name="Catalog.AP_AcrylWallet" id="a5271137-f4bf-4bc6-b7be-5a6e1f6a6739" configVersion="b06b32ec3b824ecbf1d0a9f28bc9b66f46293c7d">
+			<Metadata name="Catalog.AP_AcrylWallet.Attribute.ПубличныйКлюч" id="135fef6e-1786-420b-9d5b-8cc94ec9dc48"/>
+			<Metadata name="Catalog.AP_AcrylWallet.Attribute.ПриватныйКлюч" id="1f9f93b4-7213-4705-8b12-9323fd7c91f2"/>
+			<Metadata name="Catalog.AP_AcrylWallet.Attribute.TestNet" id="3bc8f30f-9a45-4113-aba9-574c42897ca0"/>
+		</Metadata>
+		<Metadata name="Catalog.AP_AcrylWallet.Form.ФормаВыбора" id="713532a1-751d-4fe8-949d-8d632fb66081" configVersion="9c3ebfa57875c74563af98aa28880c033c1a5d9a"/>
+		<Metadata name="Catalog.AP_AcrylWallet.Form.ФормаВыбора.Form" id="713532a1-751d-4fe8-949d-8d632fb66081.0" configVersion="39bebbdb57bb5543ad68172ecc184e5a05fd04f1"/>
+		<Metadata name="Catalog.AP_AcrylWallet.Form.ФормаПеревод" id="4cf7cfa0-3165-4d9f-bbac-3f9edaeb3e80" configVersion="0efbfc4390188dc53812094a149fbcd84204b125"/>
+		<Metadata name="Catalog.AP_AcrylWallet.Form.ФормаПеревод.Form" id="4cf7cfa0-3165-4d9f-bbac-3f9edaeb3e80.0" configVersion="e9aefbe2abb120e03555de15ca7216fa86497d85"/>
+		<Metadata name="Catalog.AP_AcrylWallet.Form.ФормаСписка" id="c370f295-06f1-4866-989f-e87d9d71b25d" configVersion="7f2d6afea3a0edd0515e6c58d27644663dc841a7"/>
+		<Metadata name="Catalog.AP_AcrylWallet.Form.ФормаСписка.Form" id="c370f295-06f1-4866-989f-e87d9d71b25d.0" configVersion="10fd60b1a0b0d9ac0e32dad4dad441fb91942fd6"/>
+		<Metadata name="Catalog.AP_AcrylWallet.Form.ФормаЭлемента" id="c41b395f-1ec3-4edf-8e2e-b4dbe8c940b7" configVersion="45f12bfcbd8b9de96e98085593a6d5cf591c5c84"/>
+		<Metadata name="Catalog.AP_AcrylWallet.Form.ФормаЭлемента.Form" id="c41b395f-1ec3-4edf-8e2e-b4dbe8c940b7.0" configVersion="85bc6be2a934658cc4c647f2fd90a1ebc461851e"/>
+		<Metadata name="CommonForm.AP_AcrylClient" id="1b643dd1-559e-4f18-be2a-8574f54c9716" configVersion="5ef5d4823dc4bb5c9e8ed3bbbc73c4e5cce1308c"/>
+		<Metadata name="CommonForm.AP_AcrylClient.Form" id="1b643dd1-559e-4f18-be2a-8574f54c9716.0" configVersion="6a29d5a70660d6636b696239e069eb8010a4d3a3"/>
+		<Metadata name="CommonForm.AP_Seed" id="e53f1649-3e1f-45af-b83a-a6c8451e4121" configVersion="3f92bb333fb28b56e0be01b79fad3ca5a0d87a10"/>
+		<Metadata name="CommonForm.AP_Seed.Form" id="e53f1649-3e1f-45af-b83a-a6c8451e4121.0" configVersion="959c8372e2d0ed731dde171e0af38873187bb19e"/>
+		<Metadata name="CommonForm.AP_Информация" id="4d4224a5-8678-42a2-a36b-a79e3d44cdcd" configVersion="271c94c2f5acece0aa4ecc6a3b1add99876e7744"/>
+		<Metadata name="CommonForm.AP_Информация.Form" id="4d4224a5-8678-42a2-a36b-a79e3d44cdcd.0" configVersion="e46335e0f9a19e5b2e6b45dcdb827c6c59e84300"/>
+		<Metadata name="CommonModule.AP_HTTPКлиентСервер" id="86fbfa99-c130-4998-897c-0ee6418efde0" configVersion="58492413191f4bc29871d7b226cd47244f571276"/>
+		<Metadata name="CommonModule.AP_HTTPКлиентСервер.Module" id="86fbfa99-c130-4998-897c-0ee6418efde0.0" configVersion="1b5908d5e14c4bac0e61470e75bd3c193c40d35f"/>
+		<Metadata name="CommonModule.AP_SeedWordsList" id="04fe461c-4461-4832-96ce-484aa16a2cab" configVersion="df3689258c58c8b14a97d3b35a145a0e4103a40a"/>
+		<Metadata name="CommonModule.AP_SeedWordsList.Module" id="04fe461c-4461-4832-96ce-484aa16a2cab.0" configVersion="c17433b19d39a8787cded65a4bc2877dcec915e0"/>
+		<Metadata name="CommonModule.AP_SerializerВызовСервера" id="8690783b-8599-4215-9a86-f35cc1eabab4" configVersion="9baad9de9f01d034419b4367d8e587bbc16cad60"/>
+		<Metadata name="CommonModule.AP_SerializerВызовСервера.Module" id="8690783b-8599-4215-9a86-f35cc1eabab4.0" configVersion="1fd6b0c8b06bff91ea81cdcdfc05477163485ba6"/>
+		<Metadata name="CommonModule.AP_SerializerКлиентСервер" id="d1abb0f9-f914-4192-ba25-0919f3f1362b" configVersion="a737fc30f9abb45f629ce796e756541f36239b91"/>
+		<Metadata name="CommonModule.AP_SerializerКлиентСервер.Module" id="d1abb0f9-f914-4192-ba25-0919f3f1362b.0" configVersion="a433d69f8971c5ffa2261bcfefcf63076c96be9f"/>
+		<Metadata name="CommonModule.AP_TransactionsКлиентСервер" id="25d16290-d599-43e4-981c-b58cf4c746e5" configVersion="7ca9c154a9f6a7c34cd416d1049435e9394e0996"/>
+		<Metadata name="CommonModule.AP_TransactionsКлиентСервер.Module" id="25d16290-d599-43e4-981c-b58cf4c746e5.0" configVersion="916ceaea54c77e1673d14a7b2e82fa19dec2a7f0"/>
+		<Metadata name="CommonModule.AP_WalletВызовСервера" id="324355dc-6556-4e9b-af62-a16c0de54f73" configVersion="5a72cf602d76b0e9563d056cf8db716e54b32d2b"/>
+		<Metadata name="CommonModule.AP_WalletВызовСервера.Module" id="324355dc-6556-4e9b-af62-a16c0de54f73.0" configVersion="714346237c8b28bae241ef1b86f41b04b117789d"/>
+		<Metadata name="CommonModule.AP_WalletКлиентСервер" id="919fc060-2e92-455e-8131-28b6db54b8f9" configVersion="7767b6d1d8c478c5b616f755fe5dc73a44d2d110"/>
+		<Metadata name="CommonModule.AP_WalletКлиентСервер.Module" id="919fc060-2e92-455e-8131-28b6db54b8f9.0" configVersion="9548f64ced707505f0dcee8aa6831b0296ba73ff"/>
+		<Metadata name="CommonModule.AP_КлючевыеФарзыКлиентСервер" id="072a711f-c64a-4145-9d09-1eaaa6e13288" configVersion="b75512f935e9a49e5d585f33519463527d7a3f33"/>
+		<Metadata name="CommonModule.AP_КлючевыеФарзыКлиентСервер.Module" id="072a711f-c64a-4145-9d09-1eaaa6e13288.0" configVersion="dc20a251b5fc036f413d9ad01b84fabf2beb47da"/>
+		<Metadata name="CommonModule.Crypt_AdressKeySeed" id="c505867c-890a-4359-9211-026e280057a2" configVersion="958c3e0d683600a30437fb0d770f0cac373dc186"/>
+		<Metadata name="CommonModule.Crypt_AdressKeySeed.Module" id="c505867c-890a-4359-9211-026e280057a2.0" configVersion="9e9f50d09ff99752469606cf97f0af92fa7ebc0b"/>
+		<Metadata name="CommonModule.Crypt_Axlsign" id="f068a4ac-b5c0-4a21-aba3-892e933d14ff" configVersion="0bcbfacfb4f0494825d6ce6959537a1c1600d104"/>
+		<Metadata name="CommonModule.Crypt_Axlsign.Module" id="f068a4ac-b5c0-4a21-aba3-892e933d14ff.0" configVersion="5ccf4d1aeb41bed1042e89fd7347e33184631825"/>
+		<Metadata name="CommonModule.Crypt_Base58" id="0703d495-7314-4f1c-94f4-1efe0734d48a" configVersion="d9a106684a44ff73f90596a9015b1a659c243a98"/>
+		<Metadata name="CommonModule.Crypt_Base58.Module" id="0703d495-7314-4f1c-94f4-1efe0734d48a.0" configVersion="32e7417c2098eddc6db5863a213a2b2bf485c08b"/>
+		<Metadata name="CommonModule.Crypt_Blake2b" id="f52e72db-845b-41ea-ad66-f4886f31b97b" configVersion="44e116c2e7c7e352c2d48a50f5575241465f5786"/>
+		<Metadata name="CommonModule.Crypt_Blake2b.Module" id="f52e72db-845b-41ea-ad66-f4886f31b97b.0" configVersion="a594e882611f02b0beea647f50e8b3cf7ad278b5"/>
+		<Metadata name="CommonModule.Crypt_Interface" id="1af02223-c0a7-4f4b-b6d2-9a8c21d7b810" configVersion="6a149009f8a19a823e2a776015a5854c08168367"/>
+		<Metadata name="CommonModule.Crypt_Interface.Module" id="1af02223-c0a7-4f4b-b6d2-9a8c21d7b810.0" configVersion="25f9261b074c4637ff1cbf3e2be34bb32bcddc68"/>
+		<Metadata name="CommonModule.Crypt_Random" id="291126a3-f706-4ff5-920e-4012e2070fdd" configVersion="cd70cf21fa357f67218ed2d6ddd46f6ff4f0a01d"/>
+		<Metadata name="CommonModule.Crypt_Random.Module" id="291126a3-f706-4ff5-920e-4012e2070fdd.0" configVersion="7a3e22770e9f8afe697ed1386289feea3b258aab"/>
+		<Metadata name="CommonModule.Crypt_Sha256ВызовСервера" id="40bbaedd-90f2-46ce-806b-0d9d07e4ec48" configVersion="be908723324685a93524b5c72bf433221b538c81"/>
+		<Metadata name="CommonModule.Crypt_Sha256ВызовСервера.Module" id="40bbaedd-90f2-46ce-806b-0d9d07e4ec48.0" configVersion="365a50cbe33b52dcff8fb365375478956f3dd32e"/>
+		<Metadata name="CommonModule.Crypt_Sha3" id="6d461c61-00c7-49f4-a2ba-bd5b0848c87d" configVersion="adf21a8d2143ba3bc528d513dc1de6d7133975d4"/>
+		<Metadata name="CommonModule.Crypt_Sha3.Module" id="6d461c61-00c7-49f4-a2ba-bd5b0848c87d.0" configVersion="664f88604960030dcd67dc57337fdfe6dd9ae373"/>
+		<Metadata name="CommonModule.Crypt_StringBytes" id="db58d23a-ab7e-492b-9b8a-3b76cae7a7c2" configVersion="e46d4f4a1757c3e36f644081273411bfa952fae9"/>
+		<Metadata name="CommonModule.Crypt_StringBytes.Module" id="db58d23a-ab7e-492b-9b8a-3b76cae7a7c2.0" configVersion="3b37ddf53fbf2816dd3483c5e22f5c08fa57d156"/>
+		<Metadata name="CommonModule.Crypt_Utf8" id="ec191d74-4d84-48e5-9af8-3a4a351fb8a3" configVersion="9a52f90abde67acf6f2beb1094fcde19a5ccbe7c"/>
+		<Metadata name="CommonModule.Crypt_Utf8.Module" id="ec191d74-4d84-48e5-9af8-3a4a351fb8a3.0" configVersion="c4be08a43b66671f141bed8c77a039ad9727736f"/>
+		<Metadata name="CommonModule.Crypt_ОбщегоНазначенияКлиентСевер" id="6f5ace08-ef85-4251-a4f7-43df03b89ff3" configVersion="83c29549766b3f34c129a402525e55927ecaa012"/>
+		<Metadata name="CommonModule.Crypt_ОбщегоНазначенияКлиентСевер.Module" id="6f5ace08-ef85-4251-a4f7-43df03b89ff3.0" configVersion="c7f993ea4d78206d9e8c7d8c1aa3d3acb0d80447"/>
+		<Metadata name="CommonModule.Crypt_ТипизированныеМассивы" id="097eb2db-b210-47e5-8c06-b6015b510a66" configVersion="531bd9a3b48e70ec5491850cb2e407ae4e87252a"/>
+		<Metadata name="CommonModule.Crypt_ТипизированныеМассивы.Module" id="097eb2db-b210-47e5-8c06-b6015b510a66.0" configVersion="11790098212bc3f0c084eaebddc5426b8fe6acee"/>
+		<Metadata name="CommonPicture.AP_Acryl_Icon" id="ab6c4268-1e40-40ee-b90a-496fd6b3ff4b" configVersion="6c628b129df0100f08e505e5c2ac607f97ecbdee"/>
+		<Metadata name="CommonPicture.AP_Acryl_Icon.Picture" id="ab6c4268-1e40-40ee-b90a-496fd6b3ff4b.0" configVersion="9a7c339e1916846de5fe0d838672fa69de924699"/>
+		<Metadata name="CommonPicture.AP_WiFi" id="e88c22b4-2a58-4794-a1c9-9e281ce60266" configVersion="0bb9a55767af2ca21e7b595cd4e116422281e464"/>
+		<Metadata name="CommonPicture.AP_WiFi.Picture" id="e88c22b4-2a58-4794-a1c9-9e281ce60266.0" configVersion="7ee1cccb599483eaddaf3a32cee3d8d8d0f3468f"/>
+		<Metadata name="CommonPicture.AP_Анонимность" id="0cc1c315-8347-432a-9c53-6227eede5c41" configVersion="941716f299366e863ceaf5511897b88a4ec831d5"/>
+		<Metadata name="CommonPicture.AP_Анонимность.Picture" id="0cc1c315-8347-432a-9c53-6227eede5c41.0" configVersion="97a4cdac0dc38e20eab868f066dd00ed79d7541c"/>
+		<Metadata name="CommonPicture.AP_Бумага" id="4bdaa5c4-65e4-4ab5-bf39-c3f0f1104d07" configVersion="89180ad87966337827416f56b47d53f84a2e1ec0"/>
+		<Metadata name="CommonPicture.AP_Бумага.Picture" id="4bdaa5c4-65e4-4ab5-bf39-c3f0f1104d07.0" configVersion="e8d2a2ee81ac12f050b8fad1d8856890f9a0afc9"/>
+		<Metadata name="CommonPicture.AP_ДлительнаяОперация" id="6114faec-3533-4bf9-be89-68db46c6d8d2" configVersion="4ebb13b4efd92a912e32307726377e87096b8bbd"/>
+		<Metadata name="CommonPicture.AP_ДлительнаяОперация.Picture" id="6114faec-3533-4bf9-be89-68db46c6d8d2.0" configVersion="f01522904dd6991aa6a4849ac0e8ff6a65d6091f"/>
+		<Metadata name="CommonPicture.AP_ОС" id="57af05ac-32c2-4c9d-9368-3bc924b93cca" configVersion="e3e71e62e08d64c9241fd27f3eb9ccb0bdeefc83"/>
+		<Metadata name="CommonPicture.AP_ОС.Picture" id="57af05ac-32c2-4c9d-9368-3bc924b93cca.0" configVersion="6fec507159127e82ea00f48ed3a0b1fd18dda06e"/>
+		<Metadata name="CommonPicture.AP_Обновление" id="ed471796-b11a-44d6-9931-ca6d99e35265" configVersion="07fbdc90467885dd4a82480746857f60835ebb2a"/>
+		<Metadata name="CommonPicture.AP_Обновление.Picture" id="ed471796-b11a-44d6-9931-ca6d99e35265.0" configVersion="f2573c1e40528666c91f62dbee570785bf9d5503"/>
+		<Metadata name="CommonPicture.AP_Ошибка32" id="9fe6ab6b-8f42-4b31-b0e3-66b946a7e127" configVersion="3e911a48fb73815efa88030bf17af091af3d3be6"/>
+		<Metadata name="CommonPicture.AP_Ошибка32.Picture" id="9fe6ab6b-8f42-4b31-b0e3-66b946a7e127.0" configVersion="f49922cb5cd1f7ebd33489bd4a7c03e8cb00be84"/>
+		<Metadata name="CommonPicture.AP_Пароль" id="7475e178-5007-4f45-8e23-ed228c2a37dc" configVersion="ce6a9e21099389d043563725beae06189d1b5400"/>
+		<Metadata name="CommonPicture.AP_Пароль.Picture" id="7475e178-5007-4f45-8e23-ed228c2a37dc.0" configVersion="4ce83444e4ed1a80ea92d7732345e5934a083c64"/>
+		<Metadata name="CommonPicture.AP_Плагин" id="9e85cf7d-49e7-47c7-a9d6-6e0259ab2b3f" configVersion="fe2809519ba3e6c2625c35f9cc654df3c9dc6c8c"/>
+		<Metadata name="CommonPicture.AP_Плагин.Picture" id="9e85cf7d-49e7-47c7-a9d6-6e0259ab2b3f.0" configVersion="4ba7168e9ac10d89b2667b3e82acee2376a47047"/>
+		<Metadata name="CommonPicture.AP_РезервнаяКопия" id="a848dc1d-a5f8-4ea7-a811-d29018ed1479" configVersion="f045e9308f7e65bfc1452f29cd47f7a9e220aae1"/>
+		<Metadata name="CommonPicture.AP_РезервнаяКопия.Picture" id="a848dc1d-a5f8-4ea7-a811-d29018ed1479.0" configVersion="6e3f313f95598e2cb2177fe853c5d88a5f2c79c5"/>
+		<Metadata name="CommonPicture.AP_СсылкаURL" id="a8b68feb-e117-438f-8d11-eb7a6be71e81" configVersion="62bfaecd6ef4e2c1b2d3a1f7185751b2551bb6e8"/>
+		<Metadata name="CommonPicture.AP_СсылкаURL.Picture" id="a8b68feb-e117-438f-8d11-eb7a6be71e81.0" configVersion="509e3ede6e9dc734cc4d7431bcdd6be99cb4c915"/>
+		<Metadata name="CommonPicture.AP_Успешно32" id="8f2458bd-f24f-49f4-a39b-980fc6b50331" configVersion="b20579826f7af6eebf71da835cad121f8faca96e"/>
+		<Metadata name="CommonPicture.AP_Успешно32.Picture" id="8f2458bd-f24f-49f4-a39b-980fc6b50331.0" configVersion="3141f259f06abc2ff12d302d1db652fec575e716"/>
+		<Metadata name="CommonPicture.AP_УчебныйКомпьютер" id="aa89c004-d0a6-431f-9dc7-fc4ae29bdd39" configVersion="5ee3d0576cdd0b79237f80c08f3b9d3333ecfbc8"/>
+		<Metadata name="CommonPicture.AP_УчебныйКомпьютер.Picture" id="aa89c004-d0a6-431f-9dc7-fc4ae29bdd39.0" configVersion="29b9c9a1447bdac55e7bf4e56ad510ccef7f6999"/>
+		<Metadata name="CommonPicture.AP_ЭлектроннаяПочта" id="657d83a2-04a5-40ee-8ef4-37aace0fa391" configVersion="8da50ef24cab243bae4eedeab4b8dec5ededc895"/>
+		<Metadata name="CommonPicture.AP_ЭлектроннаяПочта.Picture" id="657d83a2-04a5-40ee-8ef4-37aace0fa391.0" configVersion="8e5713a569a265dfe7dd0c7d7829be3d67b97957"/>
+		<Metadata name="Configuration.AcrylPlatform" id="bd1568c9-b5b3-4cb4-a98e-60e96900eb22" configVersion="c0103b8765db5f3b85770b96c034710409245971"/>
+		<Metadata name="Configuration.AcrylPlatform.ManagedApplicationModule" id="3ec7d2d9-a4ec-4ec4-a2ed-271d7e1dd5d2.6" configVersion="980c067e5e6974a6716200f16f544bc6c4a48c80"/>
+		<Metadata name="Configuration.AcrylPlatform.SessionModule" id="3ec7d2d9-a4ec-4ec4-a2ed-271d7e1dd5d2.7" configVersion="c08830b256337c05e01bd942ef4e4cb0782cf7ad"/>
+		<Metadata name="Language.Русский" id="0d696d5d-2779-4c50-b949-12ba3dfd2372" configVersion="170b6e9146cee3469150ce27ed1871787c3f88fb"/>
+		<Metadata name="Subsystem.AcrylPlatform" id="defd9f3a-0115-4600-bd2d-f435077e14e9" configVersion="0bfb7d7f162fc0fde77d9f02dcb274a2152238fe"/>
+		<Metadata name="Subsystem.AcrylPlatform.CommandInterface" id="defd9f3a-0115-4600-bd2d-f435077e14e9.1" configVersion="a1cfb10ce0f4c6e0c1d86017b7ab4ea53729f695"/>
+		<Metadata name="Subsystem.CryptLib" id="6a2e7a7e-f085-4196-99ec-6ba5b617dfe1" configVersion="464b25387a02e0e7fabe664aeaf47fc2fd039573"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

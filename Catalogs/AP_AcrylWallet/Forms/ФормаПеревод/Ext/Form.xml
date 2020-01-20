@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОтправить" id="10">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Отправить</CommandName>
+				<ExtendedTooltip name="ФормаОтправитьРасширеннаяПодсказка" id="11"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="грДанныеТранзакции" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр данные транзакции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр данные транзакции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грДанныеТранзакцииРасширеннаяПодсказка" id="13"/>
+			<ChildItems>
+				<InputField name="Кошелек" id="1">
+					<DataPath>Кошелек</DataPath>
+					<CreateButton>false</CreateButton>
+					<ContextMenu name="КошелекКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КошелекРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="АдресПолучателя" id="4">
+					<DataPath>АдресПолучателя</DataPath>
+					<ContextMenu name="АдресПолучателяКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="АдресПолучателяРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Сумма" id="7">
+					<DataPath>Сумма</DataPath>
+					<ContextMenu name="СуммаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="грОжидание" id="14">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр ожидание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр ожидание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грОжиданиеРасширеннаяПодсказка" id="15"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация1" id="20">
+					<Picture>
+						<xr:Ref>CommonPicture.AP_ДлительнаяОперация</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="22"/>
+				</PictureDecoration>
+				<LabelDecoration name="Декорация2" id="23">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 14&gt;&lt;b&gt;&lt;color #696969&gt;Выполняется отправка транзакции. Пожалуйста подождите.&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="25"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="грГотово" id="16">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр готово</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр готово</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грГотовоРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<UsualGroup name="грСообщениеГотово" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр сообщение готово</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр сообщение готово</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="грСообщениеГотовоРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация3" id="26">
+							<Picture>
+								<xr:Ref>CommonPicture.AP_Успешно32</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация3КонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="28"/>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация4" id="29">
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;fontsize 12&gt;&lt;b&gt;&lt;color #696969&gt;Транзакция отправлена успешно!  &lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация4КонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="31"/>
+						</LabelDecoration>
+						<PictureDecoration name="Декорация7" id="49">
+							<Visible>false</Visible>
+							<Picture>
+								<xr:Ref>CommonPicture.AP_Ошибка32</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация7КонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="51"/>
+						</PictureDecoration>
+						<UsualGroup name="ГрСообщенияОшибки" id="52">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр сообщения ошибки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Гр сообщения ошибки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГрСообщенияОшибкиРасширеннаяПодсказка" id="53"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация8" id="54">
+									<Visible>false</Visible>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt;fontsize 16&gt;&lt;color #696969&gt;Транзакция не принята!&lt;/&gt;&lt;/&gt;</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация8КонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="Декорация8РасширеннаяПодсказка" id="56"/>
+								</LabelDecoration>
+								<LabelDecoration name="ОшибкаТранзакции" id="46">
+									<Visible>false</Visible>
+									<Height>4</Height>
+									<ContextMenu name="ОшибкаТранзакцииКонтекстноеМеню" id="47"/>
+									<ExtendedTooltip name="ОшибкаТранзакцииРасширеннаяПодсказка" id="48"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="ЗаголовокНомерТранзакции" id="43">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 14&gt;&lt;color #696969&gt;Данные вашей транзакции:&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗаголовокНомерТранзакцииКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ЗаголовокНомерТранзакцииРасширеннаяПодсказка" id="45"/>
+				</LabelDecoration>
+				<LabelDecoration name="НомерТраназкции" id="40">
+					<Visible>false</Visible>
+					<Hyperlink>true</Hyperlink>
+					<ContextMenu name="НомерТраназкцииКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="НомерТраназкцииРасширеннаяПодсказка" id="42"/>
+					<Events>
+						<Event name="Click">НомерТраназкцииНажатие</Event>
+					</Events>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="грОшибка" id="18">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр ошибка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гр ошибка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="грОшибкаРасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация5" id="32">
+					<Picture>
+						<xr:Ref>CommonPicture.AP_Ошибка32</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="Декорация5КонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="34"/>
+				</PictureDecoration>
+				<LabelDecoration name="Декорация6" id="35">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 16&gt;&lt;b&gt;&lt;color #696969&gt;Ошибка. Транзакция не отправлена.&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация6КонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="37"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Кошелек" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кошелек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.AP_AcrylWallet</v8:Type>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="АдресПолучателя" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес получателя</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="Сумма" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>18</v8:Digits>
+					<v8:FractionDigits>4</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Отправить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.AP_Успешно32</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Отправить</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>
